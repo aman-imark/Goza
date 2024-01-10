@@ -1,0 +1,21 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/fonts/Superclarendo/Superclarendon-Bold.ttf",
+      "sha1": "5bb3ab636e1cdcb18f1d1ccb4254ede4f29f68b6"
+    },
+    {
+      "path": "src/assets/fonts/Superclarendo/Superclarendon-ExtraBold.ttf",
+      "sha1": "5c22eb3685ab5131daf840e98eb634455b218b6b"
+    },
+    {
+      "path": "src/assets/fonts/Superclarendo/Superclarendon-Light.ttf",
+      "sha1": "586683a18477fc15bc797b659e7935f70d9723e4"
+    },
+    {
+      "path": "src/assets/fonts/Superclarendo/Superclarendon-Regular.ttf",
+      "sha1": "ca5a5072a17f719d537d520458132dadff711f6a"
+    }
+  ]
+}

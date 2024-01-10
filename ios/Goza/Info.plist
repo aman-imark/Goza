@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>Goza</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(MARKETING_VERSION)</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+	    <dict>
+		    <key>CFBundleTypeRole</key>
+			<string>Editor</string>
+            <key>CFBundleURLSchemes</key>
+            <array>
+                <string>com.googleusercontent.apps.996674728299-4vei8usq5q6sld1ac7dpc8fh82cbpa66</string>
+            </array>
+        </dict>	
+	    <dict>	
+            <key>CFBundleURLSchemes</key>
+            <array>
+                <string>fb184636184394057</string>
+            </array>
+        </dict>
+	</array>
+
+    <key>FacebookAppID</key>
+    <string>184636184394057</string>
+    <key>FacebookClientToken</key>
+    <string>ba91f7fc7ac0926a768970bd62f5b0f9</string>
+	  <key>FacebookDisplayName</key>
+    <string>Goza</string>
+    <key>LSApplicationQueriesSchemes</key>
+    <array>
+      <string>fbapi</string>
+      <string>fb-messenger-share-api</string>
+      <string>fbauth2</string>
+      <string>fbshareextension</string>
+    </array>
+
+
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+
+
+	<!-- <key>NSAppTransportSecurity</key>
+	<dict>
+	    <Key>NSAllowsArbitraryLoads</key>
+		<true/>
+		<key>NSExceptionDomains</key>
+		<dict>
+			<key>localhost</key>
+			<dict>
+				<key>NSExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+			</dict>
+		</dict>
+	</dict> -->
+
+
+<key>NSAppTransportSecurity</key>
+<dict>
+  <key>NSAllowsArbitraryLoads</key>
+  <true/>
+  <key>NSExceptionDomains</key>
+  <dict>
+    <key>firstclass.customerdevsites.com</key>
+    <dict>
+      <key>NSIncludesSubdomains</key>
+      <true/>
+      <key>NSExceptionAllowsInsecureHTTPLoads</key>
+      <true/>
+      <key>NSExceptionMinimumTLSVersion</key>
+      <string>TLSv1.2</string>
+      <key>NSExceptionRequiresForwardSecrecy</key>
+      <false/>
+      <key>NSExceptionAllowsLocalNetworking</key>
+      <true/>
+    </dict>
+  </dict>
+</dict>
+
+
+
+	<key>NSCameraUsageDescription</key>
+	<string>Camera Permission</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string></string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Superclarendon-Light.ttf</string>
+		<string>Superclarendon-Regular.ttf</string>
+		<string>Superclarendon-Bold.ttf</string>
+		<string>Superclarendon-ExtraBold.ttf</string>
+		<string>AntDesign.ttf</string>
+		<string>Entypo.ttf</string>
+		<string>EvilIcons.ttf</string>
+		<string>Feather.ttf</string>
+		<string>FontAwesome.ttf</string>
+		<string>FontAwesome5_Brands.ttf</string>
+		<string>FontAwesome5_Regular.ttf</string>
+		<string>FontAwesome5_Solid.ttf</string>
+		<string>Fontisto.ttf</string>
+		<string>Foundation.ttf</string>
+		<string>Ionicons.ttf</string>
+		<string>MaterialCommunityIcons.ttf</string>
+		<string>MaterialIcons.ttf</string>
+		<string>Octicons.ttf</string>
+		<string>SimpleLineIcons.ttf</string>
+		<string>Zocial.ttf</string>
+	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+</dict>
+</plist>
